@@ -97,7 +97,7 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <p class="caption">
+    <p class="caption collapsible-parent">
  <span class="caption-text">
   Syllabus
  </span>
@@ -154,7 +154,7 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption collapsible-parent">
  <span class="caption-text">
   Schedule, tips, resources
  </span>
@@ -195,7 +195,7 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption collapsible-parent">
  <span class="caption-text">
   Assignments and participation
  </span>
@@ -217,7 +217,7 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption collapsible-parent">
  <span class="caption-text">
   Textbook
  </span>
@@ -822,7 +822,7 @@ const thebe_selector_output = ".output, .cell_output"
   </i>
  </li>
 </ul>
-<p class="caption">
+<p class="caption collapsible-parent">
  <span class="caption-text">
   Slides and Memes
  </span>
@@ -950,14 +950,14 @@ const thebe_selector_output = ".output, .cell_output"
 <h1><span class="section-number">3.2. </span>Powerful Pandas<a class="headerlink" href="#powerful-pandas" title="Permalink to this headline">¶</a></h1>
 <p>It’s time to learn <code class="docutils literal notranslate"><span class="pre">pandas</span></code>!</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="f7ad80b5-2a5b-405f-a811-dd77cd6ed077" name="9cf55126-1647-4b25-b72b-f77fe17d8080" type="radio">
-</input><label class="tabbed-label" for="f7ad80b5-2a5b-405f-a811-dd77cd6ed077">
+<input checked="checked" id="aa7021ac-bf3c-4a1c-9bf6-5c34dd7cc4fa" name="01b9782b-6dbb-440a-9b0b-f26bfb704a9a" type="radio">
+</input><label class="tabbed-label" for="aa7021ac-bf3c-4a1c-9bf6-5c34dd7cc4fa">
 Pandas=$</label><div class="tabbed-content docutils">
 <p>Pandas is worth the overhead.</p>
 <p>Pandas is the #1 way that professionals use tabular data in Python. (Read: Pandas get paid.)</p>
 </div>
-<input id="56f9ae96-bffa-434e-acf6-4d087b740406" name="9cf55126-1647-4b25-b72b-f77fe17d8080" type="radio">
-</input><label class="tabbed-label" for="56f9ae96-bffa-434e-acf6-4d087b740406">
+<input id="2ec8e985-f745-4bc3-95d4-74c16f6d5f59" name="01b9782b-6dbb-440a-9b0b-f26bfb704a9a" type="radio">
+</input><label class="tabbed-label" for="2ec8e985-f745-4bc3-95d4-74c16f6d5f59">
 Pandas is Fat</label><div class="tabbed-content docutils">
 <p><strong>Do not fret the size of Pandas</strong></p>
 <p><img alt="" src="https://media.giphy.com/media/nXwhk6k5R97Da/giphy.gif" />
@@ -970,19 +970,19 @@ Pandas is Fat</label><div class="tabbed-content docutils">
 <p>On top of trying to memorize (well, sort of) the available methods, a tough part of data science is conceptualizing how to shape and format and construct datasets so that algos you want to run can run and so that plots can plot.</p>
 <p>So I’m going to try to reduce it to the most common operations and make you aware of things you can do. By the end of the semester, your Pandas proficiency will have you feeling like <a class="reference external" href="https://media.giphy.com/media/3o84sq21TxDH6PyYms/giphy.gif">Sheev Palpy</a>.</p>
 </div>
-<input id="3f5c294a-c618-47ed-8ebe-9442072334f9" name="9cf55126-1647-4b25-b72b-f77fe17d8080" type="radio">
-</input><label class="tabbed-label" for="3f5c294a-c618-47ed-8ebe-9442072334f9">
+<input id="81024906-8e7e-426d-879c-3c05b7c29058" name="01b9782b-6dbb-440a-9b0b-f26bfb704a9a" type="radio">
+</input><label class="tabbed-label" for="81024906-8e7e-426d-879c-3c05b7c29058">
 Not happening</label><div class="tabbed-content docutils">
 <p>I promise it will go better than this</p>
 <p><img alt="" src="https://media.giphy.com/media/EPcvhM28ER9XW/giphy.gif" /></p>
 </div>
-<input id="b36ebe6d-2083-43fc-aa34-d7a747e6bbc9" name="9cf55126-1647-4b25-b72b-f77fe17d8080" type="radio">
-</input><label class="tabbed-label" for="b36ebe6d-2083-43fc-aa34-d7a747e6bbc9">
+<input id="3e898e2a-355f-49dd-9b06-288b660fa45d" name="01b9782b-6dbb-440a-9b0b-f26bfb704a9a" type="radio">
+</input><label class="tabbed-label" for="3e898e2a-355f-49dd-9b06-288b660fa45d">
 Cue the montage</label><div class="tabbed-content docutils">
 <p><img alt="" src="https://media.giphy.com/media/QxZ0nbcVgMlPlnfZos/giphy.gif" /></p>
 </div>
-<input id="1720b190-f5cb-4b1a-b7ce-13ba52df1b1e" name="9cf55126-1647-4b25-b72b-f77fe17d8080" type="radio">
-</input><label class="tabbed-label" for="1720b190-f5cb-4b1a-b7ce-13ba52df1b1e">
+<input id="c326280f-2d0b-45fc-8eaf-4071758e53a3" name="01b9782b-6dbb-440a-9b0b-f26bfb704a9a" type="radio">
+</input><label class="tabbed-label" for="c326280f-2d0b-45fc-8eaf-4071758e53a3">
 Soon</label><div class="tabbed-content docutils">
 <p><img alt="" src="https://media.giphy.com/media/fUSX3E4imAn9WHwrCV/giphy.gif" /></p>
 </div>
