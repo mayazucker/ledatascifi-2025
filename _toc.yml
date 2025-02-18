@@ -141,6 +141,10 @@
       - file: content/03/04d-whichplot
       - file: content/03/04e-visualEDA
       - file: content/03/04e2-visualEDA-tools
+      - file: content/03/04e3-binscatter
+        title: "Bin Scatter Plots"
+      - file: content/03/04e4-binscatterGrids
+        title: "Bin Scatter + Pair Plots"
       - file: content/03/04f1-viz_narrative
       - file: content/03/04f2-customizing_figs
       - file: content/03/04f3-interactive_figs
